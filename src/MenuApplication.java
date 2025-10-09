@@ -5,6 +5,7 @@ public class MenuApplication {
 
         System.out.println("Menu de profissões --------------");
         mostrarEhfProfissional();
+        mostrarIgorProfissional();
         System.out.println("--------------");
     }
 
@@ -13,4 +14,10 @@ public class MenuApplication {
         System.out.println(ehfProfissional.seuNome());
         System.out.println(ehfProfissional.suaAreaAtuacao());
     }
+
+        public static void mostrarIgorProfissional() {
+            IgorProfissional igorProfissional = new IgorProfissional();
+            System.out.println(igorProfissional.seuNome());
+            System.out.println(igorProfissional.suaAreaAtuacao());
+        }
 }
