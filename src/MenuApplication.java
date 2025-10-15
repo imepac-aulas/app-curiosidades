@@ -18,5 +18,6 @@ public class MenuApplication {
         GrcProfissional grcProfissional = new GrcProfissional();
         System.out.println(grcProfissional.seuNome());
         System.out.println(grcProfissional.suaAreaAtuacao());
+        System.out.println("Igão passou por aqui :)");
     }
 }
