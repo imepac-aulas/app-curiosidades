@@ -19,6 +19,6 @@ public class MenuApplication {
         SmsfProfissional smsfProfissional = new SmsfProfissional();
         System.out.println(smsfProfissional.seuNome());
         System.out.println(smsfProfissional.suaAreaAtuacao());
-        System.out.println("Samela aterei seu arquivo");
+        System.out.println("Samela alterei seu arquivo");
     }
 }
