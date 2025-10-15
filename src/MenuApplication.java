@@ -17,6 +17,8 @@ public class MenuApplication {
     public static void mostrarPhfProfissional() {
         PhfProfissional phfProfissional = new PhfProfissional();
         System.out.println(phfProfissional.seuNome());
-        System.out.println(phfProfissional.suaAreaAtuacao());''''''''''''''''
+        System.out.println(phfProfissional.suaAreaAtuacao());
+        System.out.println("Alteração de código...");
     }
+
 }
