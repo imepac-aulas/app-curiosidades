@@ -13,11 +13,12 @@ public class MenuApplication {
         EhfProfissional ehfProfissional = new EhfProfissional();
         System.out.println(ehfProfissional.seuNome());
         System.out.println(ehfProfissional.suaAreaAtuacao());
-            }
-            public static void mostrarGhmProfissional(){
+    }
+
+    public static void mostrarGhmProfissional() {
         GhmProfissional ghmProfissional = new GhmProfissional();
         System.out.println(ghmProfissional.seuNome());
         System.out.println(ghmProfissional.suaAreaAtuacao());
-                System.out.println("--------------");
-            }
+        System.out.println("--------------");
+    }
 }
