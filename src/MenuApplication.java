@@ -13,4 +13,11 @@ public class MenuApplication {
         System.out.println(ehfProfissional.seuNome());
         System.out.println(ehfProfissional.suaAreaAtuacao());
     }
+
+    public static void mostrarnpw() {
+        EhfProfissional NpwfProfissional = new EhfProfissional();
+        System.out.println(NpwfProfissional.seuNome());
+        System.out.println(NpwfProfissional.suaAreaAtuacao());
+
+    }
 }
