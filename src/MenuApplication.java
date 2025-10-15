@@ -19,6 +19,6 @@ public class MenuApplication {
         TraProfissional traProfissional = new TraProfissional();
         System.out.println(traProfissional.seuNome());
         System.out.println(traProfissional.suaAreaAtuacao());
-        System.out.println("Profissional do Privacy");
+        System.out.println("Att do codigo");
     }
 }
