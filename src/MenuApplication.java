@@ -14,6 +14,7 @@ public class MenuApplication {
         System.out.println(ehfProfissional.suaAreaAtuacao());
     }
 
+
     public static void mostrarMjProfissional() {
         MjProfissional mjProfissional = new MjProfissional();
         System.out.println(mjProfissional.seuNome());
