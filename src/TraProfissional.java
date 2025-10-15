@@ -7,4 +7,5 @@ public class TraProfissional  implements InterfaceProfissional{
     public String seuNome() {
         return "Thalía R. Alcântara";
     }
+
 }
