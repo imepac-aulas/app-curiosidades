@@ -11,6 +11,8 @@ public class MenuApplication {
         mostrarTmsProfissional();
         System.out.println("--------------");
         
+        mostrarGccProfissional();
+                System.out.println("--------------");
     }
 
     private static void mostrarEhfProfissional() {
@@ -18,16 +20,11 @@ public class MenuApplication {
         System.out.println(ehfProfissional.seuNome());
         System.out.println(ehfProfissional.suaAreaAtuacao());
         System.out.println();
-        System.out.println();
     }
-
-
-
-    public static void mostrarTmsProfissional() {
-        TmsProfissional tmsProfissional = new TmsProfissional();
-        System.out.println(tmsProfissional.seuNome());
-        System.out.println(tmsProfissional.suaAreaAtuacao());
-        System.out.println("Alteração de código....");
+    public static void mostrarGccProfissional(){
+        GccProfissional gccProfissional = new GccProfissional();
+        System.out.println(gccProfissional.seuNome());
+        System.out.println(gccProfissional.suaAreaAtuacao());
     }
     public static void mostrarJvSProfissional() {
         JvSProfissional JvSProfissional = new JvSProfissional();
