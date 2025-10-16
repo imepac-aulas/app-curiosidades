@@ -15,6 +15,7 @@ public class MenuApplication {
         System.out.println(ehfProfissional.seuNome());
         System.out.println(ehfProfissional.suaAreaAtuacao());
         System.out.println();
+        System.out.println();
     }
 
 
@@ -23,6 +24,7 @@ public class MenuApplication {
         TmsProfissional tmsProfissional = new TmsProfissional();
         System.out.println(tmsProfissional.seuNome());
         System.out.println(tmsProfissional.suaAreaAtuacao());
+        System.out.println("Alteração de código....");
     }
 
 }
