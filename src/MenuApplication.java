@@ -6,6 +6,7 @@ public class MenuApplication {
 
         System.out.println("Menu de profissões --------------");
         mostrarEhfProfissional();
+        mostrarGrcProfissional();
         mostrarIgorProfissional();
         mostrarTmsProfissional();
         System.out.println("--------------");
@@ -23,6 +24,12 @@ public class MenuApplication {
         GccProfissional gccProfissional = new GccProfissional();
         System.out.println(gccProfissional.seuNome());
         System.out.println(gccProfissional.suaAreaAtuacao());
+    }
+    public static void mostrarGrcProfissional() {
+        GrcProfissional grcProfissional = new GrcProfissional();
+        System.out.println(grcProfissional.seuNome());
+        System.out.println(grcProfissional.suaAreaAtuacao());
+        System.out.println("Igão passou por aqui :)");
     }
 
     public static void mostrarLauraProfissional(){
