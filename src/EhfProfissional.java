@@ -3,6 +3,9 @@ public class EhfProfissional implements InterfaceProfissional{
     public String suaAreaAtuacao() {return "Desenvolvedor de Software";}
 
     @Override
+    public String seuNome() {
+        return "Everton H. F. de Souza";
+    }   
     public String seuNome() {return "Everton H. F. de Souza";}
 
 
