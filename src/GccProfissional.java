@@ -6,3 +6,4 @@ public class GccProfissional implements InterfaceProfissional{
     @Override
     public String seuNome() {return "Gabriel C. Chaves"; }
 }
+System.out.print("Salve mano ");
