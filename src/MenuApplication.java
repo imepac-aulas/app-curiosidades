@@ -6,6 +6,13 @@ public class MenuApplication {
 
         System.out.println("Menu de profissões --------------");
         mostrarEhfProfissional();
+        mostrarJvSProfissional();
+        mostrarIgorProfissional();
+        mostrarTmsProfissional();
+        System.out.println("--------------");
+        
+        mostrarGccProfissional();
+                System.out.println("--------------");
         mostrarIgorProfissional();
         mostrarTmsProfissional();
         System.out.println("--------------");
@@ -24,6 +31,12 @@ public class MenuApplication {
         System.out.println(gccProfissional.seuNome());
         System.out.println(gccProfissional.suaAreaAtuacao());
     }
+    public static void mostrarJvSProfissional() {
+        JvSProfissional JvSProfissional = new JvSProfissional();
+        System.out.println(JvSProfissional.seuNome());
+        System.out.println(JvSProfissional.suaAreaAtuacao());
+    }
+}
 
     public static void mostrarLauraProfissional(){
         LarProfissional lauraProfissional = new LarProfissional();
