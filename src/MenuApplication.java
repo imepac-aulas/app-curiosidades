@@ -4,10 +4,11 @@ public class MenuApplication {
 
     public static void main(String[] args) {
 
-        System.out.println("Menu de profissões --------------");
+        System.out.println("Menu de profissões \n--------------");
         mostrarEhfProfissional();
         mostrarTmsProfissional();
         System.out.println("--------------");
+        mostrarGhmProfissional();
     }
 
     private static void mostrarEhfProfissional() {
@@ -27,4 +28,10 @@ public class MenuApplication {
         System.out.println("Alteração de código....");
     }
 
+    public static void mostrarGhmProfissional() {
+        GhmProfissional ghmProfissional = new GhmProfissional();
+        System.out.println(ghmProfissional.seuNome());
+        System.out.println(ghmProfissional.suaAreaAtuacao());
+        System.out.println("--------------");
+    }
 }
